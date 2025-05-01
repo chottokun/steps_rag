@@ -1,0 +1,18 @@
+[project]
+name = "par-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.24",
+    "langchain-chroma>=0.2.3",
+    "langchain-community>=0.3.23",
+    "langchain-huggingface>=0.1.2",
+    "langchain-ollama>=0.3.2",
+    "langchain-openai>=0.3.14",
+    "pypdf>=5.4.0",
+    "sentencepiece>=0.2.0",
+    "streamlit>=1.45.0",
+    "transformers>=4.51.3",
+]

@@ -80,6 +80,7 @@ pip install -r requirements.txt
 5. LLM/埋め込みモデルの設定
 
 - デフォルトはOllamaローカルLLM（`gemma3:4b-it-qat`）とHuggingFace埋め込み（`intfloat/multilingual-e5-small`）
+- デフォルトのローカルLLMでは答えの精度は高くありません。
 - Azure OpenAIを使いたい場合は`st_par_rev2.py`の`get_config()`で`USE_AZURE=True`に変更
 - Ollamaを使う場合は[Ollama公式](https://ollama.com/)でモデルをダウンロード・起動しておく
 
